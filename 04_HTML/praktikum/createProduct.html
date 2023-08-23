@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Product</title>
+</head>
+<body>
+    <h1>Create Product</h1>
+    <h2>Detail Product</h2>
+    <form action="submit.php" method="post" enctype="multipart/form-data">
+        
+        <label for="product_name">Product Name:</label><br>
+        <input type="text" id="product_name" name="product_name" required><br>
+        
+        <br><label for="product_category">Product Category:</label><br>
+        <select id="product_category" name="product_category" required>
+            <option value="category1">Category 1</option>
+            <option value="category2">Category 2</option>
+            <option value="category3">Category 3</option>
+        </select><br>
+        
+        <br><label for="product_freshness">Product Freshness:</label><br>
+        <input type="radio" id="freshness_brandnew" name="product_freshness" value="brandnew" required>
+        <label for="freshness_fresh">Brand New</label><br>
+        <input type="radio" id="freshness_secondhank" name="product_freshness" value="secondhank" required>
+        <label for="freshness_notfresh">Second Hank</label><br>
+        <input type="radio" id="freshness_refurbished" name="product_freshness" value="refurbished" required>
+        <label for="freshness_notfresh">Refurbished</label><br>
+        
+        <br><label for="image_product">Image of Product:</label>
+        <input type="file" id="image_product" name="image_product" accept="image/*" required><br>
+        
+        <br><label for="description">Additional Description:</label><br>
+        <textarea id="description" name="description" rows="4" cols="50" required></textarea><br>
+        
+        <br><label for="product_price">Product Price:</label><br>
+        <input type="number" id="product_price" name="product_price" step="0.01" required><br>
+        
+        <br><input type="submit" value="Submit"><br>
+    </form>
+</body>
+</html>
