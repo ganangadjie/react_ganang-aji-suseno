@@ -1,0 +1,151 @@
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  background-color: #fff;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+header button {
+  border-radius: 0;
+  border: 0;
+  height: 35px;
+}
+header #btnSelected:hover {
+  background-color: grey;
+}
+header #btnNav:hover {
+  background-color: #0d6efd;
+  color: #ffffff;
+}
+header #btnSelected {
+  background-color: var(--bs-blue, #0d6efd);
+  color: #ffffff;
+}
+header #btnNav {
+  color: var(--bs-blue, #0d6efd);
+  background-color: #ffffff;
+}
+/* Untuk Main */
+main {
+  background-color: #37517e;
+}
+
+/* top */
+#top {
+  display: flex;
+  align-items: center;
+  padding: 50px 33px 31px 32px;
+  justify-content: space-around;
+}
+#top #content h2 {
+  color: #fff;
+  margin-bottom: 0px;
+}
+#top #content p {
+  margin-top: 0;
+  color: #ffffff99;
+}
+#top #content button {
+  border-radius: 50px;
+  height: 30px;
+  width: auto;
+}
+#top #content .start {
+  background-color: #47b2e4;
+  color: #ffffff;
+  border: 0px;
+}
+#top #content .watchvid {
+  background-color: #37517e;
+  color: #ffffff;
+  border: 0px;
+}
+
+#middle {
+  background-color: #f3f5fa;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#middle #content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 30px;
+}
+#middle #content h4 {
+  margin-bottom: 0;
+}
+#middle #content p {
+  color: #444;
+}
+#middle #content #inpBar input {
+  border-radius: 50px;
+  border: 0px;
+  width: 500px;
+  height: 30px;
+}
+#middle #content #inpBar button {
+  border-radius: 50px;
+  border: 0px;
+  background-color: #47b2e4;
+  color: #fff;
+  height: 30px;
+}
+/* bottom */
+#bottom {
+  display: flex;
+  background-color: #fff;
+  align-items: center;
+  justify-content: space-evenly;
+}
+#bottom #content1 {
+  width: 330px;
+  height: 219px;
+}
+#bottom #content1 #data h4 {
+  margin-bottom: 10px;
+  color: #5e5e5e;
+}
+#bottom #content1 #data p {
+  margin: 0;
+  color: #5e5e5e;
+}
+#bottom #content1 #phone {
+  display: flex;
+  align-items: center;
+}
+#bottom #content1 #email {
+  display: flex;
+  align-items: center;
+}
+#bottom #content2 {
+  width: 330px;
+  height: 219px;
+}
+#bottom #content3 {
+  width: 330px;
+  height: 219px;
+}
+#bottom #content4 {
+  width: 290px;
+  height: 219px;
+}
+
+footer {
+  background-color: #37517e;
+}
+footer p {
+  color: #fff;
+}
+footer #pcontent {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 48px;
+}
