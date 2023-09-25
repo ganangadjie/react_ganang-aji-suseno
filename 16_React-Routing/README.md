@@ -1,0 +1,52 @@
+# 16_React-Routing
+1. Routes Learning
+    - Router
+        - Merupakan modul dalam react yang berfungsi untuk melakukan proses navigasi pada SPA (Single Page Application)
+    - MPA (Multi Page Application)
+        - Disebut dengan tradisional web app adalah jenis aplikasi website dimana perlu memuat ulang seluruh halaman web setiap kali membuat permintaan baru.
+        - Keunggulan MPA
+            - SEO website akan lebih mudah dioptimasi
+            - Memudahkanmu untuk mengubah halaman tertentu untuk setiap kebutuhan yang berbeda
+            - Menggunakan tools analisis seperti Google analytics yang dapat terintegrasi langsung dengan website
+        - Kekurangan MPA
+            - Kecepatan download website jouh lebih lama jika dibandingkan dengan single page application
+            - Kamu perlu mengintegrosikan antara front-end dan back-end
+            - Lebih sering membutuhkan maintenance don update
+            - Mungkin akan lebih sering menemukan masalah performa pada website
+    - SPA (Single Page Application)
+        - Adalah salah satu jenis aplikasi website dimana hanya ada 1 halaman yang menangani semua aktivitas yang terjadi dalam aplikasi tersebut.
+        - Keunggulan SPA
+            - Waktu loading website jauh lebih cepat
+            - Tidak ada query tambahan ke server
+            - Front-end yang cepat dan responsif
+            - Meningkatkan pengalaman pengguna (User Experience)
+        - Kekurangan SPA
+            - Tidak bagus dalam hal SEO
+            - Berat saat di-load/buka pertama kali
+            - Kurang aman dibanding dengan Website biasa
+            - Masalah kompatibilitas browser
+2. Use URL Params
+    - Parameter URL
+        -  Adalah suatu parameter yang nilainya ditetapkan secara dinamis di URL halaman
+    - Link
+        - Dapat digunakan poda kondisi apapun
+        - Memberikan history baru pada browser
+        - Bereaksi dengan click seperti a href
+    - Redirect
+        - Lebih sering digunakan pada halaman 404
+        - Menimpa history pada browser
+        - Bereaksi dengan suatu kondisi
+3. Hook Routing React Learning
+    - useHistory
+        - Memberi kita akses ke instance riwayat yang dapat anda gunakan untuk bernavigasi
+        - Contoh :
+            - length
+            - go
+            - goBack
+            - goForward
+            - Push
+    - useLocation
+    - useParams
+        - Mengembalikan objek pasangan kunci/nilai parameter URL. Gunakan untuk mengakses match.params dari <Route> saat ini.
+    - useRouteMatch
+        - Mencoba mencocokkan URL saat ini dengan cara yang sama seperti <Route>. Ini sebagian besar berguna untuk mendapatkan akses ke data kecocokan tanpa benar-benar merender <Route>.
