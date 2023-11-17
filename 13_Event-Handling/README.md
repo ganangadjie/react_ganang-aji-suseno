@@ -6,7 +6,10 @@
 4. Handling Event adalah suatu metode untuk menangani sebuah event atau aksi yang diberikan pengguna kepada suatu komponen.
 5. Event adalah suatu peristiwa yang dipicu oleh pengguna pada suatu komponen, misalnya tombol tekan.
 6. Contoh list Event
+
 - Clipboard Events
 - Form Events
 - Mouse Events
 - Generic Events
+
+## RECOMMIT
