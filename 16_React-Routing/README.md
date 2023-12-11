@@ -1,4 +1,5 @@
 # 16_React-Routing
+
 1. Routes Learning
     - Router
         - Merupakan modul dalam react yang berfungsi untuk melakukan proses navigasi pada SPA (Single Page Application)
@@ -27,7 +28,7 @@
             - Masalah kompatibilitas browser
 2. Use URL Params
     - Parameter URL
-        -  Adalah suatu parameter yang nilainya ditetapkan secara dinamis di URL halaman
+        - Adalah suatu parameter yang nilainya ditetapkan secara dinamis di URL halaman
     - Link
         - Dapat digunakan poda kondisi apapun
         - Memberikan history baru pada browser
@@ -50,3 +51,5 @@
         - Mengembalikan objek pasangan kunci/nilai parameter URL. Gunakan untuk mengakses match.params dari <Route> saat ini.
     - useRouteMatch
         - Mencoba mencocokkan URL saat ini dengan cara yang sama seperti <Route>. Ini sebagian besar berguna untuk mendapatkan akses ke data kecocokan tanpa benar-benar merender <Route>.
+
+## RECOMMIT

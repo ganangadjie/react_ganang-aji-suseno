@@ -1,6 +1,6 @@
 # 17_React-Form
 
-1. Form 
+1. Form
     - Merupakan salah satu hal krusial dalam pengembangan aplikasi website. Form dapat digunakan untuk menghandle inputan dari user.
     - Macam Form :
         - Elemen < input >
@@ -36,6 +36,7 @@
                 - digunakan untuk menentukan nilai minimum dan maksimum dari angka yang bisa dimasukkan.
             - type
                 - digunakan untuk menentukan apakah data berupa angka, email, atau type yang lainnya.
-            - pattern 
+            - pattern
                 - digunakan untuk menentukan regular expression (regex) yang mendefinisikan pola data yang boleh dimasukkan.
-        
+
+## RECOMMIT
